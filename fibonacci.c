@@ -26,7 +26,6 @@ long fibonacci_loop(int number_th) {
 	long pre_result = 1;
 	long result = pre_pre_result + pre_result;
 	while (number_th-- > 2) {
-		long temp = pre_result;
 		pre_pre_result = pre_result;
 		pre_result = result;
 		result = pre_pre_result + pre_result;
